@@ -8,18 +8,14 @@
             $prenom = "Pierre";
             $nom = "Giraud";
             $age = 28;
+            $prez = "Je suis " .$prenom. " " .$nom. ", j'ai " .$age. " ans";
+            $prez2 = 'Je suis ' .$prenom. ' ' .$nom. ', j\'ai '.$age. ' ans';
             
-            echo "Je m'appelle $prenom et j'ai $age ans <br>";
-            echo "Je m'appelle {$prenom} et j'ai {$age} ans <br>";
-            echo 'Je m\'appelle $prenom et j\'ai $age ans <br>';
             
-            $prez = "Je suis $prenom $nom, j'ai $age ans <br>";
-            $prez2 = "Je suis {$prenom} {$nom}, j'ai {$age} ans <br>";
-            $prez3 = 'Je suis $prenom $nom, j\'ai $age ans';
+            echo "Je m'appelle " .$prenom. " et j'ai " .$age. " ans <br>";
+            echo 'Je m\'appelle ' .$prenom. ' et j\'ai ' .$age. ' ans <br>';
             
-            echo $prez;
-            echo $prez2;
-            echo $prez3;
+            echo $prez. '<br>' .$prez2;
         ?>
         <p>Un paragraphe</p>
     </body>
