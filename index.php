@@ -5,14 +5,21 @@
     </head>
         <h1>Titre principal</h1>
         <?php
-            $vide = NULL;
-            $vide2;
+            $prenom = "Pierre";
+            $nom = "Giraud";
+            $age = 28;
             
-            echo 'La variable $vide contient une valeur de type ';
-            echo gettype($vide);
+            echo "Je m'appelle $prenom et j'ai $age ans <br>";
+            echo "Je m'appelle {$prenom} et j'ai {$age} ans <br>";
+            echo 'Je m\'appelle $prenom et j\'ai $age ans <br>';
             
-            echo '<br>La variable $vide2 contient une valeur de type ';
-            echo gettype($vide2);
+            $prez = "Je suis $prenom $nom, j'ai $age ans <br>";
+            $prez2 = "Je suis {$prenom} {$nom}, j'ai {$age} ans <br>";
+            $prez3 = 'Je suis $prenom $nom, j\'ai $age ans';
+            
+            echo $prez;
+            echo $prez2;
+            echo $prez3;
         ?>
         <p>Un paragraphe</p>
     </body>
