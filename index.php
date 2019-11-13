@@ -5,10 +5,8 @@
     </head>
         <h1>Titre principal</h1>
         <?php
-            echo 'Je m\'appelle Florence mais tout le monde m\'appelle "Flo"<br>';
-            echo "Je m'appelle Florence mais tout le monde m'appelle \"Flo\"<br>";
-            print 'Je m\'appelle Florence mais tout le monde m\'appelle "Flo"<br>';
-            print "Je m'appelle Florence mais tout le monde m'appelle \"Flo\"<br>";
+            $prenom = 'Sylvain';
+            $age = 31;
         ?>
         <p>Un paragraphe</p>
     </body>
