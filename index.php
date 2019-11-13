@@ -5,21 +5,15 @@
     </head>
         <h1>Titre principal</h1>
         <?php
-            $prenom = "Sylvain";
-            $age = 28; //$age stocke le nombre 28
+            $prez = "Je m'appelle Pierre";
+            $age = 28; //Stocke le nombre 28
+            $age2 = "28"; //Stocke la chaine de caractères "28"
             
-            echo "La variable $age contient : ";
-            echo $age;
-            echo "<br>";
+            echo "La variable \$age contient une valeur de type ";
+            echo gettype($age);
             
-            $age = 31; //$age stocke le nombre 31
-            echo 'La variable $age contient : ';
-            echo $age;
-            echo "<br>";
-            
-            $age = 65; //$age stocke le nombre 31
-            echo "La variable \$age contient : ";
-            echo $age;
+            echo "<br>La variable \$age2 contient une valeur de type ";
+            echo gettype($age2);
         ?>
         <p>Un paragraphe</p>
     </body>
