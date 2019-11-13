@@ -13,7 +13,12 @@
             echo "<br>";
             
             $age = 31; //$age stocke le nombre 31
-            echo "La variable $age contient : ";
+            echo 'La variable $age contient : ';
+            echo $age;
+            echo "<br>";
+            
+            $age = 65; //$age stocke le nombre 31
+            echo "La variable \$age contient : ";
             echo $age;
         ?>
         <p>Un paragraphe</p>
