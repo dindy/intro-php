@@ -7,6 +7,8 @@
         <?php
             $prenom = 'Sylvain';
             $age = 31;
+
+            echo $prenom;
         ?>
         <p>Un paragraphe</p>
     </body>
